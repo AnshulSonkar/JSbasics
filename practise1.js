@@ -417,3 +417,49 @@ console.log(age);
 // numbers.forEach(num => {
 //   console.log(num);
 // });
+
+
+
+
+// let numbers = [1, 2, 3, 4];
+
+// let doubled = numbers.map(num => num * 2);
+
+// console.log(doubled);
+
+
+
+
+// let numbers = [1, 2, 3, 4, 5, 6];
+
+// let evens = numbers.filter(num => num % 2 === 0);
+
+// console.log(evens);
+
+
+
+
+// let numbers = [10, 20, 30];
+
+// let total = numbers.reduce((acc, curr) => acc + curr, 0);
+
+// console.log(total);
+
+
+
+// Example 
+let students = [
+  { name: "Anshu", marks: 80 },
+  { name: "Rahul", marks: 45 },
+  { name: "Priya", marks: 90 }
+];
+
+// only passed students
+let passed = students.filter(s => s.marks >= 50);
+
+console.log(passed);
+
+// Total marks
+let totalMarks = students.reduce((sum, s) => sum + s.marks, 0);
+
+console.log("Total Marks:", totalMarks);

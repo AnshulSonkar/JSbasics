@@ -467,27 +467,36 @@ console.log(age);
 
 
 
+// Day 12 Js from Js
+// Array destructing
+// let numbers = [10, 20, 30];
+
+// let first = numbers[0];
+// let second = numbers[1];
+
+// console.log(first, second);
 
 
 
 
-// // 
-// let { name: studentName } = student;
+// let numbers = [10, 20, 30];
 
-// console.log(studentName);
+// let [first, second, third] = numbers;
+
+// console.log(first, second, third);
 
 
 
 
-// real example
-let student = {
-  name: "Anshu",
-  marks: 85
-};
+// // real example
+// let student = {
+//   name: "Anshu",
+//   marks: 85
+// };
 
-let updatedStudent = {
-  ...student,
-  marks: 90
-};
+// let updatedStudent = {
+//   ...student,
+//   marks: 90
+// };
 
-console.log(updatedStudent);
+// console.log(updatedStudent);

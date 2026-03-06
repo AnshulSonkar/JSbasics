@@ -546,55 +546,128 @@ console.log(age);
 
 
 
-// 
-const myPromise = new Promise((resolve, reject) => {
-  let success = true;
+// Day 13 Js gpt
+// const myPromise = new Promise((resolve, reject) => {
+//   let success = true;
 
-  if (success) {
-    resolve("Task completed");
-  } else {
-    reject("Task failed");
-  }
-});
+//   if (success) {
+//     resolve("Task completed");
+//   } else {
+//     reject("Task failed");
+//   }
+// });
 
-myPromise
-  .then(result => {
-    console.log(result);
-  })
-  .catch(error => {
-    console.log(error);
-  });
-
-
-
-
-  // 
-  function fetchData() {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve("Data received");
-    }, 2000);
-  });
-}
-
-fetchData().then(data => {
-  console.log(data);
-});
+// myPromise
+//   .then(result => {
+//     console.log(result);
+//   })
+//   .catch(error => {
+//     console.log(error);
+//   });
 
 
 
 
-// 
-function checkNumber(num) {
-  return new Promise((resolve, reject) => {
-    if (num > 0) {
-      resolve("Positive number");
-    } else {
-      reject("Not positive");
+//   // 
+//   function fetchData() {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve("Data received");
+//     }, 2000);
+//   });
+// }
+
+// fetchData().then(data => {
+//   console.log(data);
+// });
+
+
+
+
+// // 
+// function checkNumber(num) {
+//   return new Promise((resolve, reject) => {
+//     if (num > 0) {
+//       resolve("Positive number");
+//     } else {
+//       reject("Not positive");
+//     }
+//   });
+// }
+
+// checkNumber(-5)
+//   .then(res => console.log(res))
+//   .catch(err => console.log(err));
+
+
+
+
+// Day 14 Js gpt
+// async function greet() {
+//   return "Hello Anshu";
+// }
+
+// greet().then(result => console.log(result));
+
+
+
+
+// Await keyword in Async function
+// function fetchData() {
+//   return new Promise(resolve => {
+//     setTimeout(() => {
+//       resolve("Data Loaded");
+//     }, 2000);
+//   });
+// }
+
+// async function getData() {
+//   let result = await fetchData();
+//   console.log(result);
+// }
+
+// getData();
+
+
+
+
+// // Multiple await
+// function step1() {
+//   return new Promise(resolve => {
+//     setTimeout(() => resolve("Step 1 Done"), 1000);
+//   });
+// }
+
+// function step2() {
+//   return new Promise(resolve => {
+//     setTimeout(() => resolve("Step 2 Done"), 1000);
+//   });
+// }
+
+// async function process() {
+//   let a = await step1();
+//   console.log(a);
+
+//   let b = await step2();
+//   console.log(b);
+// }
+
+// process();
+
+
+
+
+// Try and catch
+async function checkNumber(num) {
+  try {
+    if (num < 0) {
+      throw new Error("Negative number");
     }
-  });
+
+    return "Valid number";
+  } catch (error) {
+    console.log(error.message);
+  }
 }
 
-checkNumber(-5)
-  .then(res => console.log(res))
-  .catch(err => console.log(err));
+    checkNumber(-5);

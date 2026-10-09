@@ -1,30 +1,30 @@
 // My List -> Add Items //
-let button = document.getElementById("addBtn");
-let list = document.getElementById("list");
+// let button = document.getElementById("addBtn");
+// let list = document.getElementById("list");
 
-button.addEventListener("click", function () {
+// button.addEventListener("click", function () {
 
-  let li = document.createElement("li");
+//   let li = document.createElement("li");
 
-  li.textContent = "New Item";
+//   li.textContent = "New Item";
 
-  list.appendChild(li);
+//   list.appendChild(li);
 
-});
-
-
+// });
 
 
-// To add Dynamic content //
-button.addEventListener("click", function () {
 
-  let li = document.createElement("li");
 
-  li.textContent = "Item " + Math.floor(Math.random() * 100);
+// // To add Dynamic content //
+// button.addEventListener("click", function () {
 
-  list.appendChild(li);
+//   let li = document.createElement("li");
 
-});
+//   li.textContent = "Item " + Math.floor(Math.random() * 100);
+
+//   list.appendChild(li);
+
+// });
 
 
 

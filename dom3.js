@@ -16,14 +16,14 @@
 
 
 // Tag selection
-let p = document.querySelector("p");
+// let p = document.querySelector("p");
 
-console.log(p);
-
-
+// console.log(p);
 
 
-// querySelectorAll()
-let paragraphs = document.querySelectorAll("p");
 
-console.log(paragraphs);
+
+// // querySelectorAll()
+// let paragraphs = document.querySelectorAll("p");
+
+// console.log(paragraphs);

@@ -8,21 +8,21 @@
 // heading.textContent = "Hello Anshu";
 
 
-let button = document.getElementById("btn");
-let message = document.getElementById("message");
+// let button = document.getElementById("btn");
+// let message = document.getElementById("message");
 
-button.addEventListener("click", function () {
-  message.textContent = "Button Clicked!";
-});
-
-
-let heading = document.getElementById("title");
-
-heading.style.color = "blue";
-heading.style.fontSize = "40px";
+// button.addEventListener("click", function () {
+//   message.textContent = "Button Clicked!";
+// });
 
 
-h1[1].style.color = "red"
+// let heading = document.getElementById("title");
+
+// heading.style.color = "blue";
+// heading.style.fontSize = "40px";
+
+
+// h1[1].style.color = "red"
 
 
 

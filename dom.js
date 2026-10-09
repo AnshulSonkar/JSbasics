@@ -22,4 +22,10 @@
 // heading.style.fontSize = "40px";
 
 
+// h1[1].style.color = "red"
+
+
+
+
+
 

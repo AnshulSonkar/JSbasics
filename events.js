@@ -26,22 +26,24 @@
 
 
 
+// Form Validation
+// let form = document.getElementById("myForm");
+// let username = document.getElementById("username");
+// let message = document.getElementById("message");
 
-let form = document.getElementById("myForm");
-let username = document.getElementById("username");
-let message = document.getElementById("message");
+// form.addEventListener("submit", function(event) {
 
-form.addEventListener("submit", function(event) {
+//   event.preventDefault(); // page reload stop
 
-  event.preventDefault(); // page reload stop
+//   if (username.value === "") {
+//     message.textContent = "Username cannot be empty";
+//   } else {
+//     message.textContent = "Form submitted successfully";
+//   }
 
-  if (username.value === "") {
-    message.textContent = "Username cannot be empty";
-  } else {
-    message.textContent = "Form submitted successfully";
-  }
-
-});
+// });
+// 
+// 
 
 
 
